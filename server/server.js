@@ -14,7 +14,7 @@ console.log("my secret env is", process.env.my_Secret_Key);
 const PORT = 8080;
 
 app.get("/", function (req, res) {
-  res.semd("Ouch, you've hit my root!!!");
+  res.send("Ouch, you've hit my root!!!");
 });
 
 app.listen(PORT, function () {
